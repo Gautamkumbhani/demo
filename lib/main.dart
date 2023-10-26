@@ -1,3 +1,5 @@
+import 'package:demo/Widget/container_widget.dart';
+import 'package:demo/Widget/containerone_widget.dart';
 import 'package:demo/Widget/stf_stl.dart';
 import 'package:flutter/material.dart';
 
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomeScreen1(),
+      home: const SkillWidget(),
     );
   }
 }
