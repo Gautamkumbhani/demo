@@ -1,4 +1,7 @@
+
 import 'package:flutter/material.dart';
+
+import '../../Utils/Commans/apptext.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -9,11 +12,11 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   @override
-
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.yellow,
+        // backgroundColor: Colors.yellow,
+        title: Text(AppText.HomePageName),
       ),
     );
   }

@@ -1,7 +1,28 @@
+import 'package:demo/Widget/buttons_widget.dart';
+import 'package:demo/Widget/buttonss_widget.dart';
+import 'package:demo/Widget/clip_rect_screen_widget.dart';
 import 'package:demo/Widget/container_widget.dart';
 import 'package:demo/Widget/containerone_widget.dart';
+import 'package:demo/Widget/deva_widget.dart';
+import 'package:demo/Widget/devas_widget.dart';
+import 'package:demo/Widget/dialog_widget.dart';
+import 'package:demo/Widget/exam.dart';
+import 'package:demo/Widget/gridview_builder_widget.dart';
+import 'package:demo/Widget/gridview_count_widget.dart';
+
+import 'package:demo/Widget/image_widget1.dart';
+import 'package:demo/Widget/list_tile_widget.dart';
+import 'package:demo/Widget/padding_widget.dart';
+import 'package:demo/Widget/row_column_widget.dart';
+import 'package:demo/Widget/stack1_widget.dart';
+import 'package:demo/Widget/stack_widget.dart';
 import 'package:demo/Widget/stf_stl.dart';
+import 'package:demo/Widget/textfield_widget.dart';
+import 'package:demo/Widget/textformfield_widget.dart';
 import 'package:flutter/material.dart';
+
+import 'Widget/expanded_flex_screen_widget.dart';
+import 'Widget/safearea.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,26 +38,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        // This is the theme of your application.
-        //
-        // TRY THIS: Try running your application with "flutter run". You'll see
-        // the application has a blue toolbar. Then, without quitting the app,
-        // try changing the seedColor in the colorScheme below to Colors.green
-        // and then invoke "hot reload" (save your changes or press the "hot
-        // reload" button in a Flutter-supported IDE, or press "r" if you used
-        // the command line to start the app).
-        //
-        // Notice that the counter didn't reset back to zero; the application
-        // state is not lost during the reload. To reset the state, use hot
-        // restart instead.
-        //
-        // This works for code too, not just values: Most code changes can be
-        // tested with just a hot reload.
+
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SkillWidget(),
+      home:  DialogWidget(),
     );
+
   }
 }
 
